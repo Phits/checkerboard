@@ -121,18 +121,8 @@ h1 {
 
 .dropdown a:hover {background-color: #ddd;}
 
-.show {display: block;}
-
-main {
-    margin: auto;
-    width: 582px;
-}
-
-.checkerboard {
-    border: solid 5px #0066A1;
-    margin: auto;
-    height: 582px;
-    width: 582px;
+.show {
+    display: block;
 }
 
 .datepicker {
@@ -180,6 +170,7 @@ main {
     font: normal normal normal 10px/13px PT Sans;
     letter-spacing: 0;
     color: #CCCCCC;
+    padding: 3px 0 0 5px;
 }
 
 #datepicker {
@@ -193,6 +184,43 @@ main {
     text-align: left;
     /*letter-spacing: NaNpx;*/
     opacity: 1;
+}
+
+.checkerboard {
+    /* Layout Properties */
+    position: absolute;
+    top: 112px;
+    left: 393px;
+    width: 582px;
+    height: 582px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #0066A1;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.blue-1 {
+    /* Layout Properties */
+    /*position: absolute;*/
+    /*top: 133px;*/
+    /*left: 415px;*/
+    /*width: 77px;*/
+    /*height: 77px;*/
+    /* UI Properties */
+    /*background: #0066A1 0% 0% no-repeat padding-box;*/
+    /*opacity: 1;*/
+}
+
+.white-1 {
+    /* Layout Properties */
+    /*position: absolute;*/
+    /*top: 133px;*/
+    /*left: 492px;*/
+    /*width: 77px;*/
+    /*height: 77px;*/
+    /*background: #000000 0% 0% no-repeat padding-box;*/
+    /*opacity: 1;*/
 }
 
 
