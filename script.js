@@ -10,10 +10,20 @@ $(document).ready(function() {
 
     createTiles();
 
+    document.getElementById("tilesEven").classList.add('fade-in');
+    document.getElementById("tilesOdd").classList.add('fade-in');
+    document.getElementById("yellowCheckers").classList.add('fade-in');
+    document.getElementById("orangeCheckers").classList.add('fade-in');
+    document.getElementById("start").classList.add('fade-in');
+
 }); /* End document ready */
 
 function hideDefault() {
     document.getElementById("datepicker-calendar").classList.add("hide");
+}
+
+function startGame() {
+    document.getElementById("start").classList.add("hide");
 }
 
 function toggleDrop() {
@@ -39,7 +49,6 @@ function filterFunction() {
 }
 
 function createTiles() {
-
     const numberOfTiles = 50;
     let leftOdd = 261;
     let leftEven = 415;
@@ -77,12 +86,6 @@ function createTiles() {
             leftOrange = 390.5;
         }
 
-
-            // topOrange = topOrange + offset;
-            // leftYellow = 429;
-
-
-
         if (i % 2 === 0 && i !== 48) {
 
             // Squares
@@ -116,7 +119,6 @@ function createTiles() {
             }
         }
     }
-
 }
 
 
