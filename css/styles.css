@@ -12,6 +12,7 @@
 
 header {
     /* Layout Properties */
+    position: absolute;
     top: 0;
     left: 0;
     width: 1366px;
@@ -37,7 +38,6 @@ h1 {
     color: #FFFFFF;
     opacity: 1;
 }
-
 
 .dropdown {
     /* Layout Properties */
@@ -78,6 +78,21 @@ h1 {
     opacity: 1;
 }
 
+.arrow-down {
+    /* Layout Properties */
+    position: absolute;
+    top: 91px;
+    left: 582px;
+    border-width: 5px 5px 0 5px;
+    border-color: #000000 transparent transparent transparent;
+    /* UI Properties */
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    border-style: solid;
+}
+
 /*.drop-button:hover, .drop-button:focus {*/
 /*    background-color: #D8D8D8;*/
 /*}*/
@@ -90,13 +105,6 @@ h1 {
     background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #CCCCCC;
     border-radius: 4px;
-    /*box-sizing: border-box;*/
-    /*background-position: 14px 12px;*/
-    /*background-repeat: no-repeat;*/
-    /*font-size: 16px;*/
-    /*padding: 14px 20px 12px 45px;*/
-    /*border: none;*/
-    /*border-bottom: 1px solid #ddd;*/
 }
 
 /*#myInput:focus {outline: 3px solid #ddd;}*/
@@ -200,27 +208,61 @@ h1 {
     opacity: 1;
 }
 
-.blue-1 {
+.start-box {
     /* Layout Properties */
-    /*position: absolute;*/
-    /*top: 133px;*/
-    /*left: 415px;*/
-    /*width: 77px;*/
-    /*height: 77px;*/
+    position: absolute;
+    top: 343px;
+    left: 654px;
+    width: 300px;
+    height: 120px;
     /* UI Properties */
-    /*background: #0066A1 0% 0% no-repeat padding-box;*/
-    /*opacity: 1;*/
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #0CCB3F;
+    opacity: 0.9;
 }
 
-.white-1 {
+.start-play {
     /* Layout Properties */
-    /*position: absolute;*/
-    /*top: 133px;*/
-    /*left: 492px;*/
-    /*width: 77px;*/
-    /*height: 77px;*/
-    /*background: #000000 0% 0% no-repeat padding-box;*/
-    /*opacity: 1;*/
+    position: absolute;
+    top: 371px;
+    left: 675px;
+    width: 258px;
+    height: 65px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 50px/65px PT Sans;
+    letter-spacing: 0px;
+    color: #0CCB3F;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+footer {
+    /* Layout Properties */
+    position: absolute;
+    top: 708px;
+    left: 0;
+    width: 1366px;
+    height: 60px;
+    /* UI Properties */
+    background: #0066A1 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+h2 {
+    /* Layout Properties */
+    position: absolute;
+    top: 729px;
+    left: 602px;
+    width: 162px;
+    height: 18px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 14px/18px PT Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 
