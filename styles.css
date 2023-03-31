@@ -1,0 +1,138 @@
+.container {
+    /* Layout Properties */
+    top: 0;
+    left: 0;
+    width: 1366px;
+    height: 768px;
+
+    /* UI Properties */
+    background: #F9F9F9 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+header {
+    /* Layout Properties */
+    top: 0;
+    left: 0;
+    width: 1366px;
+    height: 60px;
+
+    /* UI Properties */
+    background: #0066A1 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+h1 {
+    /* Layout Properties */
+    position: absolute;
+    top: 17px;
+    left: 75px;
+    width: 127px;
+    height: 23px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/23px PT Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.dropdown {
+    /* Layout Properties */
+    position: absolute;
+    top: 75px;
+    left: 393px;
+
+    /* UI Properties */
+    font: normal normal normal 14px/18px PT Sans;
+}
+
+.drop-button {
+    /* Layout Properties */
+    text-align: left;
+    width: 215px;
+    height: 34px;
+
+    /* UI Properties */
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.drop-text {
+    top: 82px;
+    left: 405px;
+    width: 136px;
+    height: 18px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/18px PT Sans;
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+}
+
+/*.drop-button:hover, .drop-button:focus {*/
+/*    background-color: #D8D8D8;*/
+/*}*/
+
+#myInput {
+    text-align: left;
+    width: 215px;
+    height: 34px;
+    padding-left: 16px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    /*box-sizing: border-box;*/
+    /*background-position: 14px 12px;*/
+    /*background-repeat: no-repeat;*/
+    /*font-size: 16px;*/
+    /*padding: 14px 20px 12px 45px;*/
+    /*border: none;*/
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+/*#myInput:focus {outline: 3px solid #ddd;}*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    min-width: 215px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+main {
+    margin: auto;
+    width: 582px;
+}
+
+.checkerboard {
+    border: solid 5px #0066A1;
+    margin: auto;
+    height: 582px;
+    width: 582px;
+}
+
