@@ -2,16 +2,27 @@
 
 $( function() {
     $( "#datepicker" ).datepicker({
-        dateFormat: "dd-mm-yy"
+        dateFormat: "dd-mm-yy",
     });
 } );
+
+function hideDefault() {
+    console.log('Hide');
+    document.getElementById("datepicker-calendar").classList.add("hide");
+
+    // if (x.style.display === "none") {
+    //     x.style.display = "block";
+    // } else {
+    //     x.style.display = "none";
+    // }
+}
 
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
 function filterFunction() {
-    let input, filter, ul, li, a, i;
+    let input, filter, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     let div;
@@ -27,3 +38,11 @@ function filterFunction() {
         }
     }
 }
+
+$(document).ready(function() {
+
+    // let defaultDate = 'Calendar (dd-mm-yyy)';
+    // $("#datepicker").val(defaultDate);
+
+}); /* End document ready */
+
