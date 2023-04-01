@@ -91,7 +91,7 @@ function createTiles() {
             // Squares
             let obj = document.createElement('div');
             obj.className = `white-${i}`;
-            obj.style.cssText = `position: absolute; top: ${topEven}px; left: ${leftEven}px; width: 77px; height: 77px; background: #000000 0% 0% no-repeat padding-box; opacity: 1;`;
+            obj.style.cssText = `position: absolute; top: ${topEven}px; left: ${leftEven}px; width: 77px; height: 77px; background: #ffffff 0% 0% no-repeat padding-box; opacity: 1;`;
 
             document.getElementById("tilesEven").appendChild(obj);
 
